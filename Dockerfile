@@ -3,7 +3,7 @@ MAINTAINER Jeroen Geusebroek <me@jeroengeusebroek.nl>
 
 # Install git, download and extract Bitbucket Server and create the required directory layout.
 # Try to limit the number of RUN instructions to minimise the number of layers that will need to be created.
-RUN apk add --no-cache git bash tar curl
+RUN apk add --no-cache git bash tar curl perl
 
 # Use the default unprivileged account. This could be considered bad practice
 # on systems where multiple processes end up being executed by 'daemon' but
