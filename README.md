@@ -4,6 +4,10 @@
 
 A small image containing [gliderlabs/docker-alpine](https://github.com/gliderlabs/docker-alpine) Linux and [Atlassian Bitbucket Server](https://www.atlassian.com/software/bitbucket).
 
+## MySQL
+
+This images has support for Mysql backed installations (It has the MySQL connector installed).
+
 ## Usage
 
     docker run -d --restart=always \
