@@ -1,4 +1,4 @@
-FROM jgeusebroek/minimal-jre-8
+FROM openjdk:8-jre-alpine
 MAINTAINER Jeroen Geusebroek <me@jeroengeusebroek.nl>
 
 # Install git, download and extract Bitbucket Server and create the required directory layout.
@@ -17,10 +17,10 @@ ENV BITBUCKET_HOME          /var/atlassian/application-data/bitbucket
 # Install Atlassian Bitbucket Server to the following location
 ENV BITBUCKET_INSTALL_DIR   /opt/atlassian/bitbucket
 
-ENV BITBUCKET_VERSION 4.5.2
+ENV BITBUCKET_VERSION 4.9.0
 ENV DOWNLOAD_URL        https://downloads.atlassian.com/software/stash/downloads/atlassian-bitbucket-${BITBUCKET_VERSION}.tar.gz
 
-ENV MYSQL_CONNECTOR_VERSION 5.1.38
+ENV MYSQL_CONNECTOR_VERSION 5.1.39
 ENV DOWNLOAD_URL_MYSQL_CONNECTOR        http://dev.mysql.com/get/Downloads/Connector-J/mysql-connector-java-${MYSQL_CONNECTOR_VERSION}.tar.gz
 
 ENV UMASK 0027
