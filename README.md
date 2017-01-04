@@ -1,7 +1,7 @@
 [![](https://images.microbadger.com/badges/image/jgeusebroek/bitbucket-server.svg)](https://microbadger.com/images/jgeusebroek/bitbucket-server "Get your own image badge on microbadger.com")
 # Docker Altassian Bitbucket image
 
-A small image containing [gliderlabs/docker-alpine](https://github.com/gliderlabs/docker-alpine) Linux and [Atlassian Bitbucket Server](https://www.atlassian.com/software/bitbucket).
+A small image containing [alpine](https://github.com/gliderlabs/docker-alpine) Linux and [Atlassian Bitbucket Server](https://www.atlassian.com/software/bitbucket).
 
 ## MySQL
 
